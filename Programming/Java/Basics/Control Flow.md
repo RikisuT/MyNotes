@@ -20,3 +20,26 @@ a < b ? b : a
 
 See Code : [[ConditionalTern.java]]
 See Code : [[GreatestTern.java]]
+
+# Switch Case
+```java
+switch(){
+
+	case a:
+		
+		break;
+	case b:
+		break;
+	case c:
+		break;
+	
+}
+```
+See Code : [[Vovel.java]]
+
+
+
+
+
+
+See Code : [[ATM.java]]
