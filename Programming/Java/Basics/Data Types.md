@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/vg0v74ps#4wdfyrBAz6SqyZLfKm1o7T7B/FLkLHMmrYqs1E4XzGM
-share_updated: 2025-07-15T09:34:36+05:30
----
 # Data Types in Java
 
 Java is a statically-typed language, meaning each variable must be declared with a data type.
