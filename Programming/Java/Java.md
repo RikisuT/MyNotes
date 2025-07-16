@@ -82,3 +82,5 @@ Java is a powerful, cross-platform language suitable for everything from mobile 
 
 tags: #java #introduction #overview
 [[Data Types]] [[Basics Operators]] [[Control Flow]] [[OOP]]
+
+Codes in [[Reverse.java]]

@@ -36,10 +36,12 @@ switch(){
 }
 ```
 See Code : [[Vovel.java]]
-
-
-
-
-
-
 See Code : [[ATM.java]]
+
+# While Loop
+```java
+while(condition)
+{
+
+}
+```
