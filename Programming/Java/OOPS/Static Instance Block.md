@@ -25,6 +25,4 @@ Executed every time an object is created.
 }
 ```
 
-- In `A.java`, prints "HEHE" during object creation
-
-See Code : [[A.java]], [[B.java]], [[C.java]]
+- In `A.java`, prints "HEHE" during object creation.

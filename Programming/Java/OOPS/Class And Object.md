@@ -42,4 +42,4 @@ a1.Hello(); // instance method
 
 - Demonstrates cross-class access in the same package
 - 
-Referenced in: [[A.java]], [[B.java]],  [[CountObject.java]], [[MainClass.java]]
+Referenced in:  [[CountObject.java]], [[MainClass.java]]
