@@ -30,6 +30,8 @@ public class Dog extends Animal {
 
 - `Dog` inherits `eat()` from `Animal`.
 
+See Code : [[Animal.java]], [[Dog.java]]
+
 ---
 
 ## 2. **Multilevel Inheritance**
