@@ -28,5 +28,18 @@ Variable Access:
 - Access static variable using `A.a`.
 - Access instance variable `b` through object `a1.b`.
 - A class is a blueprint for creating objects.
+# Inter-Class Access
 
-Referenced in: [[A.java]], [[B.java]], [[C.java]]
+One class can access another class's static and instance members.
+
+Example in `B.java`:
+
+```java
+A.Hi(); // static method
+A a1 = new A();
+a1.Hello(); // instance method
+```
+
+- Demonstrates cross-class access in the same package
+- 
+Referenced in: [[A.java]], [[B.java]], [[C.java]], [[CountObject.java]], [[MainClass.java]]

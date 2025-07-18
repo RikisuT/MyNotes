@@ -13,12 +13,10 @@ The following markdown documents are available:
 
 ---
 
-Each document includes code references and explanation of OOP principles. View the corresponding code files:
+Each document includes code references and explanation of OOP principles. View the corresponding topics:
+- [[Inheritance]]
+- [[Encapsulation]]
+- [[Static Instance Block]]
+- [[Class And Object]]
+- [[Methods]]
 
-- - [[A.java]]
-- [[B.java]]
-- [[C.java]]
-- [[ATM2.java]]
-- [[ATM3.java]]
-- [[CountObject.java]]
-- [[MainClass.java]]

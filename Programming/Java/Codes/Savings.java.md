@@ -1,9 +1,9 @@
 ```java
 package proj1;
 
-public class ATM3 extends ATM2{
+public class Savings extends Account{
     int Saving;
-    ATM3(int Saving){
+    Savings(int Saving){
         super("Likhtih", 119191, 1000000);
         this.Saving=Saving;
     }
@@ -11,7 +11,7 @@ public class ATM3 extends ATM2{
         System.out.println("Saving : "+Saving);
     }
     public static void main(String[] args) {
-        ATM3 a=new ATM3(10000);
+        Savings a=new Savings(10000);
         a.accdetails();
         a.Savingaccdetails();
     }

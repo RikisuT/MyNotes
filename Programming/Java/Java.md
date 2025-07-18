@@ -34,24 +34,17 @@ Java is a **high-level**, **object-oriented**, **platform-independent** programm
 ## Editions of Java
 
 - **Java SE** (Standard Edition) – For desktop and core applications
-    
 - **Java EE / Jakarta EE** (Enterprise Edition) – For large-scale applications
-    
 - **Java ME** (Micro Edition) – For embedded systems and mobile
-    
 - **JavaFX** – For rich GUI desktop applications
-    
 
 ---
 
 ## Common Java Tools
 
 - **JDK** – Java Development Kit (includes compiler, tools, libraries)
-    
 - **JRE** – Java Runtime Environment (just the JVM + runtime libs)
-    
 - **IDE** – IntelliJ IDEA, Eclipse, VS Code, NetBeans
-    
 
 ---
 
@@ -66,11 +59,8 @@ public class HelloWorld {
 ```
 
 - `public class HelloWorld` – defines a class named `HelloWorld`
-    
 - `main` – the entry point
-    
 - `System.out.println` – prints to the console
-    
 
 ---
 
@@ -81,6 +71,5 @@ Java is a powerful, cross-platform language suitable for everything from mobile 
 ---
 
 tags: #java #introduction #overview
-[[Data Types]] [[Basics Operators]] [[Control Flow]] [[OOP]] [[Type Casting]]
+[[Data Types]] [[Basics Operators]] [[Control Flow]] [[OOPS in Java]] [[Type Casting]]
 
-Codes in [[Reverse.java]]

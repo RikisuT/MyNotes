@@ -4,7 +4,7 @@
 
 Executed once when the class is loaded into memory, before `main()` or object creation.
 
-```
+```java
 static {
     System.out.println("AAAA");
 }
@@ -19,7 +19,7 @@ Used in:
 
 Executed every time an object is created.
 
-```
+```java
 {
     System.out.println("HEHE");
 }
@@ -27,4 +27,4 @@ Executed every time an object is created.
 
 - In `A.java`, prints "HEHE" during object creation
 
-See Code : [[A.java]],[[C.java]]
+See Code : [[A.java]], [[B.java]], [[C.java]]
