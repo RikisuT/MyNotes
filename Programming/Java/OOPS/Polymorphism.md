@@ -171,4 +171,4 @@ public class Main {
 |CTP|Shadowing|Compile time|`int value` in child vs parent|
 |RTP|Overriding|Runtime|`Animal a = new Dog();`|
 
----
+See Code : [[Polymorphism]]
