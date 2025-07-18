@@ -79,16 +79,53 @@ class Child extends Parent {
     int value = 20; // shadows parent's value
 
     void show() {
-        System.out.println("Child value: " + value);       // 20
+        System.out.println("Child value: " + value);        // 20
         System.out.println("Parent value: " + super.value); // 10
     }
 }
 ```
 
-🔍 Shadowing affects **variables**, not methods. Methods follow overriding rules.
+This is resolved at **compile time** based on the **reference type**.  
+Shadowing applies only to **fields**, not instance methods.
 
 ---
 
+###  D. Method Hiding (for static methods)
+
+Occurs when a **static method** in a subclass has the **same signature** as one in the parent class. This is **not method overriding**, but **method hiding**.
+
+```java
+class PolyA {
+    public static void Pratham() {
+        System.out.println("Pratham");
+    }
+}
+
+class PolyB extends PolyA {
+    public static void Pratham() {
+        System.out.println("Vaibhav");
+    }
+
+    public static void main(String[] args) {
+        PolyA a1 = new PolyA();
+        a1.Pratham();  // Pratham
+
+        PolyB b1 = new PolyB();
+        b1.Pratham();  // Vaibhav
+
+        PolyA a2 = new PolyB();
+        a2.Pratham();  // Pratham (NOT Vaibhav)
+
+        PolyB b2 = (PolyB) a2;
+        b2.Pratham();  // Vaibhav
+    }
+}
+```
+
+ Static methods are resolved at **compile time** using the **reference type**, not the object.  
+ This is **not** polymorphism — it's method hiding.
+
+---
 ##  2. Runtime Polymorphism (RTP)
 
 Runtime Polymorphism happens when the method call is resolved **during execution** (runtime) using **dynamic method dispatch**.
