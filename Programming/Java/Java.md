@@ -71,5 +71,5 @@ Java is a powerful, cross-platform language suitable for everything from mobile 
 ---
 
 tags: #java #introduction #overview
-[[Data Types]] [[Basics Operators]] [[Control Flow]] [[OOPS in Java]] [[Type Casting]]
+[[Data Types]] [[Basics Operators]] [[Programming/Java/Basics/Control Flow]] [[OOPS in Java]] [[Type Casting]]
 

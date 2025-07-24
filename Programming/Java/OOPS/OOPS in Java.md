@@ -20,4 +20,5 @@ Each document includes code references and explanation of OOP principles. View t
 - [[Class And Object]]
 - [[Methods]]
 - [[Constructors]]
+- [[Polymorphism]]
 

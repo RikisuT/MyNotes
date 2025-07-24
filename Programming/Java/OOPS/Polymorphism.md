@@ -123,7 +123,6 @@ class PolyB extends PolyA {
 ```
 
  Static methods are resolved at **compile time** using the **reference type**, not the object.  
- This is **not** polymorphism — it's method hiding.
 
 ---
 ##  2. Runtime Polymorphism (RTP)
@@ -208,4 +207,4 @@ public class Main {
 |CTP|Shadowing|Compile time|`int value` in child vs parent|
 |RTP|Overriding|Runtime|`Animal a = new Dog();`|
 
-See Code : [[Polymorphism]]
+See Code : [[Polymorphism]], [[PolyA.java]], [[PolyB.java]], [[Polymorph.java]]
